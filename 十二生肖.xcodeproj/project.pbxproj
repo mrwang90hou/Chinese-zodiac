@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926595B31E8B9B0000A0FFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926595B21E8B9B0000A0FFD6 /* ViewController.swift */; };
+		926595B51E8BA93F00A0FFD6 /* DatePickerViewController.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926595B41E8BA93F00A0FFD6 /* DatePickerViewController.swift.swift */; };
+		927E017E1E8E688700622AF8 /* Constellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927E017D1E8E688700622AF8 /* Constellation.swift */; };
+		92C047E01E8A7E0F004AA5C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C047DF1E8A7E0F004AA5C6 /* AppDelegate.swift */; };
+		92C047E51E8A7E0F004AA5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C047E31E8A7E0F004AA5C6 /* Main.storyboard */; };
+		92C047E81E8A7E0F004AA5C6 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92C047E61E8A7E0F004AA5C6 /* ____.xcdatamodeld */; };
+		92C047EA1E8A7E0F004AA5C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C047E91E8A7E0F004AA5C6 /* Assets.xcassets */; };
+		92C047ED1E8A7E0F004AA5C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C047EB1E8A7E0F004AA5C6 /* LaunchScreen.storyboard */; };
+		92C047F81E8A7E0F004AA5C6 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C047F71E8A7E0F004AA5C6 /* ____Tests.swift */; };
+		92C048031E8A7E0F004AA5C6 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C048021E8A7E0F004AA5C6 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C047F41E8A7E0F004AA5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C047D41E8A7E0E004AA5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C047DB1E8A7E0F004AA5C6;
+			remoteInfo = "十二生肖";
+		};
+		92C047FF1E8A7E0F004AA5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C047D41E8A7E0E004AA5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C047DB1E8A7E0F004AA5C6;
+			remoteInfo = "十二生肖";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92102DBA1E8B349900111ED7 /* foreignConstellation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = foreignConstellation.playground; sourceTree = "<group>"; };
+		926595B21E8B9B0000A0FFD6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		926595B41E8BA93F00A0FFD6 /* DatePickerViewController.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift.swift; sourceTree = "<group>"; };
+		9265B4C21E8AEC9800861386 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		927E017D1E8E688700622AF8 /* Constellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constellation.swift; sourceTree = "<group>"; };
+		92C047DC1E8A7E0F004AA5C6 /* 十二生肖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "十二生肖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C047DF1E8A7E0F004AA5C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92C047E41E8A7E0F004AA5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C047E71E8A7E0F004AA5C6 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
+		92C047E91E8A7E0F004AA5C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C047EC1E8A7E0F004AA5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C047EE1E8A7E0F004AA5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C047F31E8A7E0F004AA5C6 /* 十二生肖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "十二生肖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C047F71E8A7E0F004AA5C6 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		92C047F91E8A7E0F004AA5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C047FE1E8A7E0F004AA5C6 /* 十二生肖UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "十二生肖UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C048021E8A7E0F004AA5C6 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		92C048041E8A7E0F004AA5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C047D91E8A7E0F004AA5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C047F01E8A7E0F004AA5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C047FB1E8A7E0F004AA5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C047D31E8A7E0E004AA5C6 = {
+			isa = PBXGroup;
+			children = (
+				92C047DE1E8A7E0F004AA5C6 /* 十二生肖 */,
+				92C047F61E8A7E0F004AA5C6 /* 十二生肖Tests */,
+				92C048011E8A7E0F004AA5C6 /* 十二生肖UITests */,
+				92C047DD1E8A7E0F004AA5C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C047DD1E8A7E0F004AA5C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C047DC1E8A7E0F004AA5C6 /* 十二生肖.app */,
+				92C047F31E8A7E0F004AA5C6 /* 十二生肖Tests.xctest */,
+				92C047FE1E8A7E0F004AA5C6 /* 十二生肖UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C047DE1E8A7E0F004AA5C6 /* 十二生肖 */ = {
+			isa = PBXGroup;
+			children = (
+				92C047DF1E8A7E0F004AA5C6 /* AppDelegate.swift */,
+				92C047E31E8A7E0F004AA5C6 /* Main.storyboard */,
+				926595B21E8B9B0000A0FFD6 /* ViewController.swift */,
+				927E017D1E8E688700622AF8 /* Constellation.swift */,
+				926595B41E8BA93F00A0FFD6 /* DatePickerViewController.swift.swift */,
+				92C047E91E8A7E0F004AA5C6 /* Assets.xcassets */,
+				92C047EB1E8A7E0F004AA5C6 /* LaunchScreen.storyboard */,
+				92C047EE1E8A7E0F004AA5C6 /* Info.plist */,
+				92C047E61E8A7E0F004AA5C6 /* ____.xcdatamodeld */,
+				9265B4C21E8AEC9800861386 /* MyPlayground.playground */,
+				92102DBA1E8B349900111ED7 /* foreignConstellation.playground */,
+			);
+			path = "十二生肖";
+			sourceTree = "<group>";
+		};
+		92C047F61E8A7E0F004AA5C6 /* 十二生肖Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92C047F71E8A7E0F004AA5C6 /* ____Tests.swift */,
+				92C047F91E8A7E0F004AA5C6 /* Info.plist */,
+			);
+			path = "十二生肖Tests";
+			sourceTree = "<group>";
+		};
+		92C048011E8A7E0F004AA5C6 /* 十二生肖UITests */ = {
+			isa = PBXGroup;
+			children = (
+				92C048021E8A7E0F004AA5C6 /* ____UITests.swift */,
+				92C048041E8A7E0F004AA5C6 /* Info.plist */,
+			);
+			path = "十二生肖UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C047DB1E8A7E0F004AA5C6 /* 十二生肖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C048071E8A7E0F004AA5C6 /* Build configuration list for PBXNativeTarget "十二生肖" */;
+			buildPhases = (
+				92C047D81E8A7E0F004AA5C6 /* Sources */,
+				92C047D91E8A7E0F004AA5C6 /* Frameworks */,
+				92C047DA1E8A7E0F004AA5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "十二生肖";
+			productName = "十二生肖";
+			productReference = 92C047DC1E8A7E0F004AA5C6 /* 十二生肖.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C047F21E8A7E0F004AA5C6 /* 十二生肖Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C0480A1E8A7E0F004AA5C6 /* Build configuration list for PBXNativeTarget "十二生肖Tests" */;
+			buildPhases = (
+				92C047EF1E8A7E0F004AA5C6 /* Sources */,
+				92C047F01E8A7E0F004AA5C6 /* Frameworks */,
+				92C047F11E8A7E0F004AA5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C047F51E8A7E0F004AA5C6 /* PBXTargetDependency */,
+			);
+			name = "十二生肖Tests";
+			productName = "十二生肖Tests";
+			productReference = 92C047F31E8A7E0F004AA5C6 /* 十二生肖Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C047FD1E8A7E0F004AA5C6 /* 十二生肖UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C0480D1E8A7E0F004AA5C6 /* Build configuration list for PBXNativeTarget "十二生肖UITests" */;
+			buildPhases = (
+				92C047FA1E8A7E0F004AA5C6 /* Sources */,
+				92C047FB1E8A7E0F004AA5C6 /* Frameworks */,
+				92C047FC1E8A7E0F004AA5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C048001E8A7E0F004AA5C6 /* PBXTargetDependency */,
+			);
+			name = "十二生肖UITests";
+			productName = "十二生肖UITests";
+			productReference = 92C047FE1E8A7E0F004AA5C6 /* 十二生肖UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C047D41E8A7E0E004AA5C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mrwang90hou;
+				TargetAttributes = {
+					92C047DB1E8A7E0F004AA5C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3M7MSD7MMC;
+						ProvisioningStyle = Automatic;
+					};
+					92C047F21E8A7E0F004AA5C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3M7MSD7MMC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92C047DB1E8A7E0F004AA5C6;
+					};
+					92C047FD1E8A7E0F004AA5C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3M7MSD7MMC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92C047DB1E8A7E0F004AA5C6;
+					};
+				};
+			};
+			buildConfigurationList = 92C047D71E8A7E0E004AA5C6 /* Build configuration list for PBXProject "十二生肖" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C047D31E8A7E0E004AA5C6;
+			productRefGroup = 92C047DD1E8A7E0F004AA5C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C047DB1E8A7E0F004AA5C6 /* 十二生肖 */,
+				92C047F21E8A7E0F004AA5C6 /* 十二生肖Tests */,
+				92C047FD1E8A7E0F004AA5C6 /* 十二生肖UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C047DA1E8A7E0F004AA5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C047ED1E8A7E0F004AA5C6 /* LaunchScreen.storyboard in Resources */,
+				92C047EA1E8A7E0F004AA5C6 /* Assets.xcassets in Resources */,
+				92C047E51E8A7E0F004AA5C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C047F11E8A7E0F004AA5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C047FC1E8A7E0F004AA5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C047D81E8A7E0F004AA5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926595B31E8B9B0000A0FFD6 /* ViewController.swift in Sources */,
+				926595B51E8BA93F00A0FFD6 /* DatePickerViewController.swift.swift in Sources */,
+				92C047E81E8A7E0F004AA5C6 /* ____.xcdatamodeld in Sources */,
+				927E017E1E8E688700622AF8 /* Constellation.swift in Sources */,
+				92C047E01E8A7E0F004AA5C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C047EF1E8A7E0F004AA5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C047F81E8A7E0F004AA5C6 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C047FA1E8A7E0F004AA5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C048031E8A7E0F004AA5C6 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C047F51E8A7E0F004AA5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C047DB1E8A7E0F004AA5C6 /* 十二生肖 */;
+			targetProxy = 92C047F41E8A7E0F004AA5C6 /* PBXContainerItemProxy */;
+		};
+		92C048001E8A7E0F004AA5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C047DB1E8A7E0F004AA5C6 /* 十二生肖 */;
+			targetProxy = 92C047FF1E8A7E0F004AA5C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C047E31E8A7E0F004AA5C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C047E41E8A7E0F004AA5C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92C047EB1E8A7E0F004AA5C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C047EC1E8A7E0F004AA5C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C048051E8A7E0F004AA5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92C048061E8A7E0F004AA5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C048081E8A7E0F004AA5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "十二生肖/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.UITest01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92C048091E8A7E0F004AA5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "十二生肖/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.UITest01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		92C0480B1E8A7E0F004AA5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "十二生肖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/十二生肖.app/十二生肖";
+			};
+			name = Debug;
+		};
+		92C0480C1E8A7E0F004AA5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "十二生肖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/十二生肖.app/十二生肖";
+			};
+			name = Release;
+		};
+		92C0480E1E8A7E0F004AA5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "十二生肖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "十二生肖";
+			};
+			name = Debug;
+		};
+		92C0480F1E8A7E0F004AA5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "十二生肖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "十二生肖";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C047D71E8A7E0E004AA5C6 /* Build configuration list for PBXProject "十二生肖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C048051E8A7E0F004AA5C6 /* Debug */,
+				92C048061E8A7E0F004AA5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C048071E8A7E0F004AA5C6 /* Build configuration list for PBXNativeTarget "十二生肖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C048081E8A7E0F004AA5C6 /* Debug */,
+				92C048091E8A7E0F004AA5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C0480A1E8A7E0F004AA5C6 /* Build configuration list for PBXNativeTarget "十二生肖Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C0480B1E8A7E0F004AA5C6 /* Debug */,
+				92C0480C1E8A7E0F004AA5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C0480D1E8A7E0F004AA5C6 /* Build configuration list for PBXNativeTarget "十二生肖UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C0480E1E8A7E0F004AA5C6 /* Debug */,
+				92C0480F1E8A7E0F004AA5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92C047E61E8A7E0F004AA5C6 /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92C047E71E8A7E0F004AA5C6 /* ____.xcdatamodel */,
+			);
+			currentVersion = 92C047E71E8A7E0F004AA5C6 /* ____.xcdatamodel */;
+			path = "____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92C047D41E8A7E0E004AA5C6 /* Project object */;
+}
